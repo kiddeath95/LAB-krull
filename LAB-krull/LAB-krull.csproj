@@ -7,4 +7,8 @@
     <RootNamespace>LAB_krull</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="MyFolder\SomePage.cshtml" />
+  </ItemGroup>
+
 </Project>

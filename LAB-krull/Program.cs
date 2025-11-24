@@ -1,7 +1,13 @@
+using LAB_krull.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<CityBreaksContext>(options => {
+	options.UseSqlite(builder.Configuration.GetConnectionString("CityBreakContext"));
+});
 
 var app = builder.Build();
 

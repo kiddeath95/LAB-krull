@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\RazorPages\\LAB-krull\\LAB-krull\\LAB-krull.csproj": {}
+    "D:\\Razor\\LAB-krull\\LAB-krull\\LAB-krull.csproj": {}
   },
   "projects": {
-    "F:\\RazorPages\\LAB-krull\\LAB-krull\\LAB-krull.csproj": {
+    "D:\\Razor\\LAB-krull\\LAB-krull\\LAB-krull.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\RazorPages\\LAB-krull\\LAB-krull\\LAB-krull.csproj",
+        "projectUniqueName": "D:\\Razor\\LAB-krull\\LAB-krull\\LAB-krull.csproj",
         "projectName": "LAB-krull",
-        "projectPath": "F:\\RazorPages\\LAB-krull\\LAB-krull\\LAB-krull.csproj",
+        "projectPath": "D:\\Razor\\LAB-krull\\LAB-krull\\LAB-krull.csproj",
         "packagesPath": "C:\\Users\\kidde\\.nuget\\packages\\",
-        "outputPath": "F:\\RazorPages\\LAB-krull\\LAB-krull\\obj\\",
+        "outputPath": "D:\\Razor\\LAB-krull\\LAB-krull\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

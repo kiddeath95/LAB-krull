@@ -1,0 +1,19 @@
+﻿@page "{stateName=Iowa}/{Rating?}/{Population?}"
+@model LAB_krull.Pages.statesModel
+@{
+}
+<h2>@RouteData.Values["stateName"] Details</h2>
+<h3>@Model.StateName Details</h3>
+<h4>@Model.Rating &nbsp;</h4>
+<h4>@Model.Population</h4>
+<h5>Other States</h5>
+
+<a asp-page="/states" asp-route-stateName="Iowa" asp-route-Rating="32" asp-route-Population="3264560">Iowa</a><br />
+<a asp-page="/states" asp-route-stateName="Illinois" asp-route-Rating="6" asp-route-Population="12778100">Illinois</a><br />
+<a asp-page="/states" asp-route-stateName="Kentucky" asp-route-Rating="25" asp-route-Population="4626150">Kentucky</a><br />
+<a asp-page="/states" asp-route-stateName="Tennessee" asp-route-Rating="15" asp-route-Population="7227750">Tennessee</a><br />
+<a asp-page="/states" asp-route-stateName="Georgia" asp-route-Rating="8" asp-route-Population="3806671">Georgia</a><br />
+<a asp-page="/states" asp-route-stateName="Minnesota" asp-route-Rating="22" asp-route-Population="5833250">Minnesota</a><br />
+<a asp-page="/states" asp-route-stateName="Wyoming" asp-route-Rating="50" asp-route-Population="585484">Wyoming</a><br />
+<a asp-page="/states" asp-route-stateName="Montana" asp-route-Rating="43" asp-route-Population="1143160">Montana</a><br />
+<a asp-page="/states" asp-route-stateName="Idaho" asp-route-Rating="37" asp-route-Population="2032120">Idaho</a><br />

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LAB-krull")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f09bbef4dc2e87041402910a40fe0e92a2b513ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0a46ab0dac4273c98d6df076337c0a441fd9462")]
 [assembly: System.Reflection.AssemblyProductAttribute("LAB-krull")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LAB-krull")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
